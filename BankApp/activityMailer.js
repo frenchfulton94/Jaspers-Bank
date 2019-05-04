@@ -16,8 +16,8 @@ var timer = schedule.scheduleJob('20 * * * *',function(){//first digit is what m
   const transporter = nodemailer.createTransport({
     service:'gmail',
     auth: {
-      user:'gradDBmailer@gmail.com', //TODO make a new gmail and put the auth here
-      pass:'mc29?$14'
+      user: // make a new gmail and put the auth here
+      pass:
     }
   });
 
